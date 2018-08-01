@@ -4,6 +4,8 @@ cd API-Intro
 
 ./keygenparse.py 
 
+*** You will be prompted to enter in the IP/FQDN of the FW and user credentials to obtain the API Key ***
+
 *** Copy this API key ***
 
 cd ..
