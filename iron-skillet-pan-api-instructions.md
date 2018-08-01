@@ -18,12 +18,12 @@ panxapi.py -h {{ ip address }} -K {{ api-key }} -S {{ filename.xml }} "{{ xpath 
 
 *** Here are some examples to import some AV/AS/URL/FB/Vuln Profiles to the FW ***
 
-panxapi.py -h 192.168.55.10 -K <API-KEY> -S profiles_virus.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/virus"
+panxapi.py -h 192.168.55.10 -K {API-KEY} -S profiles_virus.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/virus"
 
-panxapi.py -h 192.168.55.10 -K <API-KEY> -S profiles_spyware.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/spyware"
+panxapi.py -h 192.168.55.10 -K {API-KEY} -S profiles_spyware.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/spyware"
 
-panxapi.py -h 192.168.55.10 -K <API-KEY> -S profiles_url_filtering.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/url-filtering"
+panxapi.py -h 192.168.55.10 -K {API-KEY} -S profiles_url_filtering.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/url-filtering"
 
-panxapi.py -h 192.168.55.10 -K <API-KEY> -S profiles_file_blocking.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/file-blocking"
+panxapi.py -h 192.168.55.10 -K {API-KEY} -S profiles_file_blocking.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/file-blocking"
 
-panxapi.py -h 192.168.55.10 -K <API-KEY> -S profiles_vulnerability.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/vulnerability"
+panxapi.py -h 192.168.55.10 -K {API-KEY} -S profiles_vulnerability.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/vulnerability"
