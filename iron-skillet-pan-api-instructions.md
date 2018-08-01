@@ -22,7 +22,7 @@ cd iron-skillet/panos_version_08.0/xml-config-snippets
 
 panxapi.py -h {{ ip address }} -K {{ api-key }} -S {{ filename.xml }} "{{ xpath }}"
 
-*** Use the API browser on the FW to find the xpath needed ***
+*** Hint: Use the API browser on the FW to find the xpath needed or look at the panos_xpaths_list.py script in the /iron-skillet/iron-skillet/docs directory ***
 
 *** Here are some examples to import some AV/AS/URL/FB/Vuln Profiles to the FW ***
 
