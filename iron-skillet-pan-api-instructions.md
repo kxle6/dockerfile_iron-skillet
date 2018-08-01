@@ -1,4 +1,8 @@
+*** Run the container ***
+
 docker container run -it --rm kyleatpanw/iron-skillet:v2
+
+*** When you are in the container ***
 
 cd API-Intro
 
