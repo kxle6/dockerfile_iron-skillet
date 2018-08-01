@@ -1,6 +1,6 @@
 This is a minimal container image that will install git, python, py-pip, and curl.
 
-This image will also download the latest pandevice for an introduction using Python and our API.  The examples in the instructions guide walk you through how to import xml partial configurations, such as AV/AS/URL/FB/Vuln Profiles, to the FW.  The instructions below are how to run the container that has the perquisites already installed.
+This image will also download the latest pandevice for an introduction using Python and our API.  The examples in the iron-skillet-pan-api-instructions.md walk you through how to import xml partial configurations, such as AV/AS/URL/FB/Vuln Profiles, to the FW.  The instructions below are how to run the container that has the perquisites already installed.
 
 To run this container image, see example commands below:
 
