@@ -16,6 +16,8 @@ panxapi.py -h {{ ip address }} -K {{ api-key }} -S {{ filename.xml }} "{{ xpath 
 
 *** Use the API browser on the FW to find the xpath needed ***
 
+*** Here are some examples to import some AV/AS/URL/FB/Vuln Profiles to the FW ***
+
 panxapi.py -h 192.168.55.10 -K <API-KEY> -S profiles_virus.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/virus"
 
 panxapi.py -h 192.168.55.10 -K <API-KEY> -S profiles_spyware.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/spyware"
