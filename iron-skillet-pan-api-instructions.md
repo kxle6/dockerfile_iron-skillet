@@ -44,4 +44,4 @@ panxapi.py -h $var_fw -K $var_apikey -S profiles_vulnerability.xml "/config/devi
 
 panxapi.py -h $var_fw -K $var_apikey -S profiles_wildfire_analysis.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/wildfire-analysis"
 
-panxapi.py -h 192.168.55.10 -K $var_apikey -S profile_group.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profile-group"
+panxapi.py -h $var_fw -K $var_apikey -S profile_group.xml "/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profile-group"
