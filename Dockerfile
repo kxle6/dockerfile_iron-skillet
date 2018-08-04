@@ -15,6 +15,4 @@ RUN pip install pandevice
 
 RUN git clone https://github.com/PaloAltoNetworks/iron-skillet
 
-RUN git clone https://github.com/p0lr/API-Intro
-
 RUN cd /iron-skillet
